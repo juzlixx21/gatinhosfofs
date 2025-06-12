@@ -6,22 +6,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
+  <div class="recipiente">
     <h1>Gatinhos Fofos 💖</h1>
+    
     <div class="galeria">
-      <img src="Gatinho 1.jpeg" alt="Gatinho branco com listras">
-      <img src="Gatinho 2.jpeg" alt="Gatinho laranja com pelúcia rosa">
-      <img src="Gatinho 3.jpeg" alt="Dois filhotinhos brincando">
+      <img src="gatinho1.jpeg" alt="Gatinho branco com castanhas">
+      <img src="gatinho2.jpeg" alt="Gatinho laranja com almofada rosa">
+      <img src="gatinho3.jpeg" alt="Dois filhotinhos brincando">
     </div>
-    <button id="miauBtn">Clique para ouvir um miau 😺</button>
 
-    <div id="cartinha" class="hidden">
+    <button id="miauBtn">Clique para ouvir um miau 🐱</button>
+
+    <div id="cartinha" class="escondido">
       <p id="mensagem"></p>
     </div>
-  </div>
 
-  <audio id="soundtrack" src="when-youre-all-alone.mp3" autoplay loop hidden></audio>
-  <audio id="miauSound" src="miau.mp3" hidden></audio>
+    <audio id="trilhaSonora" src="quando-você-está-completamente-sozinho.mp3" autoplay loop hidden></audio>
+    <audio id="miauSom" src="miau.mp3" hidden></audio>
+  </div>
 
   <script src="script.js"></script>
 </body>
